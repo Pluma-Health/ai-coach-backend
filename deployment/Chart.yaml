@@ -1,0 +1,5 @@
+apiVersion: v2
+name: ai-coach-backend
+description: Ai coach backend to work  with google agent
+type: application
+version: 0.0.1
