@@ -1,0 +1,11 @@
+ingress_external:
+  enabled: false
+  host: ai-coach-backend.master.squads-dev.com
+
+ingress_restricted:
+  enabled: true
+  host: ai-coach-backend.master.squads-dev.com
+
+virtualservice_restricted:
+  enabled: false
+  host: use1-master-ai-coach-backend.percipio.com
