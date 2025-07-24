@@ -1,0 +1,13 @@
+#DOCUMENTATION: https://skillsoftdev.atlassian.net/wiki/x/AYB-y
+harnessServiceName: ai-coach-backend
+includeCDTests: [UI,BFF,BE]
+podAnnotations:
+  jiraKey: VOY
+  repo: https://github.skillsoft.com/Pluma-Health/ai-coach-backend
+  squad: VOY
+runCDTests: false
+slackNotificationChannel: VOY-squad
+deploymentHealthAuthType: basic
+# Attention!  You must request this secret and make your service accept the credentials. JWT is also supported.
+deploymentHealthUsername: ai-coach-backend-username-<+env.name>
+deploymentHealthPassword: ai-coach-backend-password-<+env.name>
